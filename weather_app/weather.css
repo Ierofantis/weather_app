@@ -1,0 +1,99 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+  font-size: 18px;
+}
+
+.italic {
+  font-style: italic;
+  font-weight: 700;
+}
+
+.wrapper {
+  width: 400px;
+  margin: 30px auto 0 auto;
+  text-align: center;
+}
+
+#result {
+  height: 50px;
+  width: 65px;
+  font-size: 20px;
+  line-height: 50px;
+  margin: 20px auto 0 auto;
+  text-align: center;
+  border-radius: 10%;
+  font-weight: 700;
+  background-color: #b2b2ff;
+  color: #fff;
+}
+
+#showTemp {
+  margin: 30px auto 0 auto;
+  width: 170px;
+  height: 50px;
+  background: #E74C3C;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 17px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+#Fahrenheit {
+  margin: 30px auto 0 auto;
+  width: 170px;
+  height: 50px;
+  background: #6666ff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 17px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+#showTemp:hover {
+  cursor: pointer;
+}
+
+#sun {
+  height: 300px;
+  width: auto;
+  padding-top: 70px;
+  padding-bottom: 20px;
+  background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/01/1c/5f/68/sunny-day-in-cheshire.jpg);
+  background-attachment: center;
+  background-repeat: no-repeat;
+}
+
+#cloud {
+  height: 300px;
+  width: auto;
+  padding-top: 70px;
+  padding-bottom: 20px;
+  background-image: url(https://www.ai-therapy.com/static/flourish/images/rain_clouds.jpg);
+  background-attachment: center;
+  background-repeat: no-repeat;
+}
+
+#rain {
+  height: 300px;
+  width: auto;
+  padding-top: 70px;
+  padding-bottom: 20px;
+  background-image: url(http://sites.macewan.ca/inspire/files/2014/06/rainy-day-images-.jpeg);
+  background-attachment: center;
+  background-repeat: no-repeat;
+}
+
+#snow {
+  height: 300px;
+  width: auto;
+  padding-top: 70px;
+  padding-bottom: 20px;
+  background-image: url(http://cdn1.theodysseyonline.com/files/2015/12/20/635861833670816810507191518_6670-perfect-snow-1920x1080-nature-wallpaper.jpg);
+  background-attachment: center;
+  background-repeat: no-repeat;
+}
